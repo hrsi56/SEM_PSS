@@ -1,0 +1,21 @@
+digraph G {
+	overlap=scale splines=true
+	edge [fontsize=12]
+	node [fillcolor="#cae6df" shape=circle style=filled]
+	node [shape=box style=""]
+	EBR [label=EBR]
+	PBR [label=PBR]
+	ANX_i_c [label=ANX_i_c]
+	FREAZING_c [label=FREAZING_c]
+	PSS [label=PSS]
+	STR_c [label=STR_c]
+	PSS -> ANX_i_c [label="0.158\np-val: 0.00"]
+	PSS -> STR_c [label="0.148\np-val: 0.00"]
+	PSS -> FREAZING_c [label="0.124\np-val: 0.00"]
+	ANX_i_c -> EBR [label="0.428\np-val: 0.00"]
+	STR_c -> EBR [label="0.774\np-val: 0.00"]
+	FREAZING_c -> EBR [label="0.927\np-val: 0.00"]
+	ANX_i_c -> PBR [label="0.433\np-val: 0.01"]
+	STR_c -> PBR [label="-0.588\np-val: 0.00"]
+	FREAZING_c -> PBR [label="-0.943\np-val: 0.00"]
+}

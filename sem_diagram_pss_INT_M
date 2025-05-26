@@ -1,0 +1,115 @@
+// SEM Diagram
+digraph {
+	dpi=150 nodesep=1 rankdir=LR ranksep=40 splines=true
+	node [fontname=David fontsize=70 height=4 shape=box style=filled width=12]
+	{
+		rank=same
+		olderi [label=Old color=lightblue]
+		female [label="Sex (Female)" color=lightblue]
+		Juvenaile [label="Juvenile Trauma" color=lightblue]
+		inactive [label=Inactive color=lightblue]
+		HFD [label="High Fat Diet" color=lightblue]
+		FD [label="Food Deprivation" color=lightblue]
+		female_x_olderi [label="Old Female" color=lightblue]
+		female_x_Juvenaile [label="Juvenile Trauma Female" color=lightblue]
+		PSS [label=PSS color=lightblue]
+		PSS_x_olderi [label="PSS  Old" color=lightblue]
+		PSS_x_female [label="PSS  Female" color=lightblue]
+		PSS_x_Juvenaile [label="PSS  Juvenile" color=lightblue]
+		PSS_x_inactive [label="PSS  Inactive" color=lightblue]
+		PSS_x_HFD [label="PSS  HFD" color=lightblue]
+		PSS_x_FD [label="PSS  FD" color=lightblue]
+		PSS_x_female_x_Juvenaile [label="PSS  Juvenile Trauma Female" color=lightblue]
+		PSS_x_female_x_olderi [label="PSS  Old Female " color=lightblue]
+	}
+	{
+		rank=same
+		ANX_i_c [label="Anxiety Index" color=lightgreen]
+		STR_c [label="Startle Response" color=lightgreen]
+		FREAZING_c [label="Freezing Behavior" color=lightgreen]
+	}
+	{
+		rank=same
+		EBR [label=EBR color=lightpink]
+		PBR [label=PBR color=lightpink]
+	}
+	PSS_x_FD
+	PBR
+	PSS_x_female_x_Juvenaile
+	inactive
+	PSS_x_inactive
+	PSS
+	female_x_Juvenaile
+	female
+	FREAZING_c
+	PSS_x_HFD
+	HFD
+	PSS_x_female_x_olderi
+	EBR
+	PSS_x_Juvenaile
+	FD
+	Juvenaile
+	PSS_x_olderi
+	STR_c
+	female_x_olderi
+	PSS_x_female
+	ANX_i_c
+	olderi
+	olderi -> ANX_i_c [label=-0.01 color=red fontsize=90 penwidth=11.071308808279781 style=dashed]
+	female -> ANX_i_c [label=-0.05 color=red fontsize=90 penwidth=11.472942810102499 style=dashed]
+	Juvenaile -> ANX_i_c [label=-0.13 color=black fontsize=90 penwidth=12.28245413939067 style=solid]
+	inactive -> ANX_i_c [label=0.02 color=red fontsize=90 penwidth=11.196006371588696 style=dashed]
+	HFD -> ANX_i_c [label=0.07 color=black fontsize=90 penwidth=11.710756994937142 style=solid]
+	FD -> ANX_i_c [label=-0.24 color=black fontsize=90 penwidth=13.416617573958082 style=solid]
+	female_x_olderi -> ANX_i_c [label=0.11 color=black fontsize=90 penwidth=12.061692031440373 style=solid]
+	female_x_Juvenaile -> ANX_i_c [label=0.12 color=black fontsize=90 penwidth=12.21282258655933 style=solid]
+	PSS -> ANX_i_c [label=0.12 color=black fontsize=90 penwidth=12.212151537484075 style=solid]
+	PSS_x_olderi -> ANX_i_c [label=0.02 color=red fontsize=90 penwidth=11.171109446611373 style=dashed]
+	PSS_x_female -> ANX_i_c [label=-0.05 color=red fontsize=90 penwidth=11.502679949458777 style=dashed]
+	PSS_x_Juvenaile -> ANX_i_c [label=0.15 color=black fontsize=90 penwidth=12.455146172164227 style=solid]
+	PSS_x_inactive -> ANX_i_c [label=0.03 color=red fontsize=90 penwidth=11.29152086616854 style=dashed]
+	PSS_x_HFD -> ANX_i_c [label=-0.06 color=red fontsize=90 penwidth=11.57139648684329 style=dashed]
+	PSS_x_FD -> ANX_i_c [label=0.18 color=black fontsize=90 penwidth=12.800223542693255 style=solid]
+	PSS_x_female_x_Juvenaile -> ANX_i_c [label=-0.13 color=black fontsize=90 penwidth=12.286086168001033 style=solid]
+	PSS_x_female_x_olderi -> ANX_i_c [label=0.02 color=red fontsize=90 penwidth=11.191260301634653 style=dashed]
+	olderi -> STR_c [label=-0.09 color=black fontsize=90 penwidth=11.899139825773343 style=solid]
+	female -> STR_c [label=0.02 color=red fontsize=90 penwidth=11.191690221622903 style=dashed]
+	Juvenaile -> STR_c [label=-0.00 color=red fontsize=90 penwidth=11.008545351035735 style=dashed]
+	inactive -> STR_c [label=-0.09 color=black fontsize=90 penwidth=11.886374076484593 style=solid]
+	HFD -> STR_c [label=0.11 color=black fontsize=90 penwidth=12.094355617284588 style=solid]
+	FD -> STR_c [label=-0.10 color=black fontsize=90 penwidth=11.961480307529024 style=solid]
+	female_x_olderi -> STR_c [label=0.26 color=black fontsize=90 penwidth=13.573002330557257 style=solid]
+	female_x_Juvenaile -> STR_c [label=0.14 color=black fontsize=90 penwidth=12.443271481486352 style=solid]
+	PSS -> STR_c [label=0.05 color=red fontsize=90 penwidth=11.516721229021218 style=dashed]
+	PSS_x_olderi -> STR_c [label=0.02 color=red fontsize=90 penwidth=11.18719646126036 style=dashed]
+	PSS_x_female -> STR_c [label=-0.11 color=black fontsize=90 penwidth=12.103719657129517 style=solid]
+	PSS_x_Juvenaile -> STR_c [label=-0.04 color=red fontsize=90 penwidth=11.388106636039293 style=dashed]
+	PSS_x_inactive -> STR_c [label=0.16 color=black fontsize=90 penwidth=12.578121418990394 style=solid]
+	PSS_x_HFD -> STR_c [label=-0.10 color=black fontsize=90 penwidth=11.952589688852353 style=solid]
+	PSS_x_FD -> STR_c [label=0.08 color=black fontsize=90 penwidth=11.845852926363932 style=solid]
+	PSS_x_female_x_Juvenaile -> STR_c [label=0.01 color=red fontsize=90 penwidth=11.139988634119433 style=dashed]
+	PSS_x_female_x_olderi -> STR_c [label=-0.04 color=red fontsize=90 penwidth=11.437819982586266 style=dashed]
+	olderi -> FREAZING_c [label=0.08 color=black fontsize=90 penwidth=11.820551989817966 style=solid]
+	female -> FREAZING_c [label=0.02 color=red fontsize=90 penwidth=11.158921940824612 style=dashed]
+	Juvenaile -> FREAZING_c [label=-0.04 color=red fontsize=90 penwidth=11.406750748390136 style=dashed]
+	inactive -> FREAZING_c [label=-0.00 color=red fontsize=90 penwidth=11.013158477695221 style=dashed]
+	HFD -> FREAZING_c [label=0.02 color=red fontsize=90 penwidth=11.184708445218178 style=dashed]
+	FD -> FREAZING_c [label=0.01 color=red fontsize=90 penwidth=11.125755019055765 style=dashed]
+	female_x_olderi -> FREAZING_c [label=-0.08 color=red fontsize=90 penwidth=11.75216170068825 style=dashed]
+	female_x_Juvenaile -> FREAZING_c [label=0.11 color=red fontsize=90 penwidth=12.055781020745876 style=dashed]
+	PSS -> FREAZING_c [label=0.03 color=red fontsize=90 penwidth=11.34236948966506 style=dashed]
+	PSS_x_olderi -> FREAZING_c [label=-0.04 color=red fontsize=90 penwidth=11.366443281555192 style=dashed]
+	PSS_x_female -> FREAZING_c [label=-0.03 color=red fontsize=90 penwidth=11.322741876701105 style=dashed]
+	PSS_x_Juvenaile -> FREAZING_c [label=0.19 color=black fontsize=90 penwidth=12.896252912350853 style=solid]
+	PSS_x_inactive -> FREAZING_c [label=0.10 color=black fontsize=90 penwidth=12.008872562843624 style=solid]
+	PSS_x_HFD -> FREAZING_c [label=0.02 color=red fontsize=90 penwidth=11.205413355148462 style=dashed]
+	PSS_x_FD -> FREAZING_c [label=-0.15 color=black fontsize=90 penwidth=12.490437411601691 style=solid]
+	PSS_x_female_x_Juvenaile -> FREAZING_c [label=-0.11 color=red fontsize=90 penwidth=12.060574700323414 style=dashed]
+	PSS_x_female_x_olderi -> FREAZING_c [label=0.10 color=red fontsize=90 penwidth=12.008498245179915 style=dashed]
+	ANX_i_c -> EBR [label=0.43 color=black fontsize=90 penwidth=15.28192680498536 style=solid]
+	STR_c -> EBR [label=0.77 color=black fontsize=90 penwidth=18.74307193059943 style=solid]
+	FREAZING_c -> EBR [label=0.93 color=black fontsize=90 penwidth=20.273208767622016 style=solid]
+	ANX_i_c -> PBR [label=0.43 color=black fontsize=90 penwidth=15.332711507772629 style=solid]
+	STR_c -> PBR [label=-0.59 color=black fontsize=90 penwidth=16.898546745586287 style=solid]
+	FREAZING_c -> PBR [label=-0.94 color=black fontsize=90 penwidth=20.40688782644647 style=solid]
+}

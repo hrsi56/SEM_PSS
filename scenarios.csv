@@ -1,0 +1,19 @@
+,olderi,female,Juvenaile,PSS,inactive,HFD,FD,PSS_x_olderi,PSS_x_female,PSS_x_Juvenaile,PSS_x_inactive,PSS_x_HFD,PSS_x_FD,female_x_Juvenaile,PSS_x_female_x_Juvenaile,female_x_olderi,PSS_x_female_x_olderi
+Olderi Male PSS=1,1,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0
+Olderi Male PSS=0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Juvenaile Male PSS=1,0,0,1,1,0,0,1,0,0,1,0,0,1,0,0,0,0
+Juvenaile Male PSS=0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Olderi Female PSS=1,1,1,0,1,0,0,1,1,1,0,0,0,1,0,0,1,1
+Olderi Female PSS=0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+Juvenaile Female PSS=1,0,1,1,1,0,0,1,0,1,1,0,0,1,1,1,0,0
+Juvenaile Female PSS=0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+Young female PSS=1,0,1,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0
+Young female PSS=0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Sleep-time Event PSS=1,0,0,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0
+Sleep-time Event PSS=0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+Obese PSS=1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0
+Obese PSS=0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+FD PSS=1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+FD PSS=0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Female PSS=1,0,1,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0
+Female PSS=0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
